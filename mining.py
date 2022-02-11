@@ -12,7 +12,7 @@ def main():
         }
         blockchain.add_new_data(data)
         blockchain.mine()
-        blockchain.difficulty += 1
+        #blockchain.difficulty += 1
         print()
     print(blockchain.chain)
 
